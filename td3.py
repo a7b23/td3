@@ -263,7 +263,7 @@ def main(args):
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='provide arguments for TD3 agent')
 
-	# agent parameters
+	
 	parser.add_argument('--actor-lr', help='actor network learning rate', default=0.001)
 	parser.add_argument('--critic-lr', help='critic network learning rate', default=0.001)
 	parser.add_argument("--start_timesteps", default=1e4, type=int)
@@ -275,7 +275,7 @@ if __name__ == '__main__':
 	parser.add_argument("--policy_freq", default=2, type=int)
 	parser.add_argument("--expl_noise", default=0.1, type=float)
 
-	# run parameters
+	
 	parser.add_argument('--env', help='choose the gym env', default='HalfCheetah-v1')
 	parser.add_argument('--random-seed', help='random seed for repeatability', default=0)
 	parser.add_argument("--max_timesteps", default=1e6, type=float)	
