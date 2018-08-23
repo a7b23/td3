@@ -17,3 +17,5 @@ python3 td3_test.py --env HalfCheetah-v1
 ```
 
 
+#### Acknowledgment
+Code borrowed from [TD3](https://github.com/sfujim/TD3)
